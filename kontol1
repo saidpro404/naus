@@ -4,7 +4,7 @@ script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
     getgenv().AccountForMainToFolow = ""
     getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
     getgenv().MainAccountSetting = { -- Unit To Sell
-        Units = {"Electric Cyborg","Magic Arrow"},
+        Units = {"Electric Cyborg","Magic Arrow","Ocean Guardian"},
         ManuallyClaimBooth = false,
     }
     getgenv().AltAccountSetting = {
