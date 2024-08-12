@@ -18,9 +18,11 @@ getgenv().RngEvent = {
     Webhook_Url = "https://discord.com/api/webhooks/1081685246086496336/mj9xCY3Zre-M-Ryl72dDh0XYHv7ypb_IohYm_xM6qbnuDVQSXwQmDLCPF3OxGpu72IM_",
     Discord_UserID = "474925167886336001",
     Huge_Mail_User = "hugecatsaidzy",
-    Huge_Mail_Enabled = true, -- Warning; using auto has a 1% chance to donate to devs!!
+    Huge_Mail_Enabled = true, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
+    fps_boost = true, -- erm makes game shtuff invisible
+    fps_boost2 = true, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
     gui_stats_enabled = true,
-    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates :P
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
