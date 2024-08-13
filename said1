@@ -1,1 +1,134 @@
+getgenv().Config = {
+	["AutoSave"] = true,
+	["SelectPortal"] = {
+		["Lunar Portal"] = false,
+		["Solar Portal"] = false,
+		["Cursed Kingdom Portal"] = false,
+		["Ancient Dragon Portal"] = false,
+		["Demon Portal"] = true
+	},
+	["ItemPrice"] = 1,
+	["WH_MatchComplete"] = false,
+	["AutoPlay"] = false,
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoUseAbility"] = true,
+	["AutoPlayNext"] = true,
+	["SelectBuyRaid"] = {
+		["Raid1"] = {
+			["Trait Crystal"] = false,
+			["Risky Dice"] = false,
+			["Frost Bind"] = false,
+			["Gems"] = false,
+			["Bear King"] = false,
+			["Otherworldly Gauntlet"] = false
+		},
+		["Raid2"] = {
+			["Trait Crystal"] = false,
+			["Risky Dice"] = false,
+			["Water Swordsmaster"] = false,
+			["Gems"] = false,
+			["Aqua Blade"] = false,
+			["Frost Bind"] = false
+		}
+	},
+	["SelectPortalMacro"] = {
 
+	},
+	["AutoBuyRaid"] = false,
+	["AutoSell"] = false,
+	["AutoTradeItem"] = false,
+	["AutoReplay"] = true,
+	["AutoJoinTower"] = false,
+	["FeedLevel"] = 69,
+	["SelectRaidWorld"] = {
+		["Cursed Train"] = false,
+		["Cursed Dungeon"] = false
+	},
+	["WH_BannerSummoned"] = false,
+	["LeaveSellWave"] = 1,
+	["WHGemItemGotAlt"] = false,
+	["ABBHopServer"] = false,
+	["AutoJoinMirror"] = false,
+	["LSBomb"] = 1,
+	["RequiredGem"] = 3000,
+	["AutoClaimBattlePass"] = true,
+	["AutoBuyBooth"] = false,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["SelectTowerMacro"] = {
+
+	},
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "colmek2",
+	["SelectRaidMacro"] = {
+
+	},
+	["WH_BoothBought"] = false,
+	["TeleportLobbyNewBanner"] = false,
+	["AutoJoinRaid"] = false,
+	["AutoJoinTradeHub"] = false,
+	["AutoFeedEquippedUnit"] = false,
+	["PlayMacro"] = true,
+	["DeleteRarity"] = {    
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["UnitPrice"] = 1,
+	["HardMode"] = false,
+	["BoostFPS"] = true,
+	["ABBHopDelay"] = 0,
+	["JoinerCooldown"] = 0,
+	["UnselectIfSummoned"] = false,
+	["WaitForJoiner"] = false,
+	["AutoReturnLobby"] = true,
+	["AutoJoinWorld"] = false,
+	["LSImplosion"] = 100000,
+	["AutoSellShinies"] = false,
+	["LSDelay"] = 0.4,
+	["AutoSkip"] = true,
+	["AutoJoinChallenge"] = false,
+	["AutoLeave"] = false,
+	["PortalRarity"] = {
+		["Legendary"] = false,
+		["Mythic"] = false,
+		["Secret"] = false,
+		["Epic"] = true,
+		["Rare"] = false
+	},
+	["BlackScreen"] = false,
+	["SelectChallengeMacro"] = {
+
+	},
+	["AutoTransferGem"] = false,
+	["UpgradeAndPlace"] = false,
+	["AutoJoinPortal"] = true,
+	["BuyUnit"] = false,
+	["SelectDeleteRarity"] = {
+		["Legendary"] = false,
+		["Shiny Epic"] = false,
+		["Epic"] = false,
+		["Mythic"] = false,
+		["Shiny Rare"] = false,
+		["Shiny Legendary"] = false,
+		["Rare"] = false
+	},
+	["JoinHighest"] = false,
+	["DeleteMap"] = false,
+	["LSLoop"] = 2,
+	["BuyItem"] = false,
+	["MiddlePos"] = {
+
+	},
+	["AutoDeleteUnit"] = false,
+	["AutoUpgrade"] = false,
+	["AutoRejoin"] = false,
+	["AutoEquipBest"] = false
+}
+
+getgenv().Key = "k6dffba0c2a2ec5b5cd8d1fd"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
