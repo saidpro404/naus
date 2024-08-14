@@ -1,135 +1,122 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=668992ee&is=6688416e&hm=217ecec88d3f8febcc246a10f063bdba35225cce98cffdf3f55cdef7d2bfe936&"
 getgenv().Config = {
+	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
-	["SelectPortal"] = {
-		["Lunar Portal"] = false,
-		["Solar Portal"] = false,
-		["Cursed Kingdom Portal"] = false,
-		["Ancient Dragon Portal"] = false,
-		["Demon Portal"] = true
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = true,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
 	},
-	["ItemPrice"] = 1,
-	["WH_MatchComplete"] = false,
-	["AutoPlay"] = false,
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
-	["AutoUseAbility"] = true,
-	["AutoPlayNext"] = true,
-	["SelectBuyRaid"] = {
-		["Raid1"] = {
-			["Trait Crystal"] = false,
-			["Risky Dice"] = false,
-			["Frost Bind"] = false,
-			["Gems"] = false,
-			["Bear King"] = false,
-			["Otherworldly Gauntlet"] = false
-		},
-		["Raid2"] = {
-			["Trait Crystal"] = false,
-			["Risky Dice"] = false,
-			["Water Swordsmaster"] = false,
-			["Gems"] = false,
-			["Aqua Blade"] = false,
-			["Frost Bind"] = false
-		}
-	},
-	["SelectPortalMacro"] = {
-
-	},
-	["AutoBuyRaid"] = false,
-	["AutoSell"] = false,
-	["AutoTradeItem"] = false,
-	["AutoReplay"] = true,
-	["AutoJoinTower"] = false,
-	["FeedLevel"] = 69,
-	["SelectRaidWorld"] = {
-		["Cursed Train"] = false,
-		["Cursed Dungeon"] = false
-	},
-	["WH_BannerSummoned"] = false,
-	["LeaveSellWave"] = 1,
-	["WHGemItemGotAlt"] = false,
-	["ABBHopServer"] = false,
-	["AutoJoinMirror"] = false,
-	["LSBomb"] = 1,
-	["RequiredGem"] = 3000,
-	["AutoClaimBattlePass"] = true,
-	["AutoBuyBooth"] = false,
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = false,
-	["AutoJoinHoster"] = false,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1250448895230873683/rbeWePbpGhxnf6tJLonHtCqXlP5Pwrx07aa2iUfLrO4v2gWc7ARuTw0K_sknTzlSDYUO",
-	["SelectTowerMacro"] = {
-
-	},
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "colmek2",
-	["SelectRaidMacro"] = {
-
-	},
-	["WH_BoothBought"] = false,
-	["TeleportLobbyNewBanner"] = false,
 	["AutoJoinRaid"] = false,
-	["AutoJoinTradeHub"] = false,
-	["AutoFeedEquippedUnit"] = false,
 	["PlayMacro"] = true,
-	["DeleteRarity"] = {    
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = false
-	},
-	["UnitPrice"] = 1,
-	["HardMode"] = false,
 	["BoostFPS"] = true,
-	["ABBHopDelay"] = 0,
+	["DeleteMap"] = true,
+        ["AutoLeave"] = true,
 	["JoinerCooldown"] = 0,
-	["UnselectIfSummoned"] = false,
-	["WaitForJoiner"] = false,
+	["AutoSell"] = false,
+	["AutoReplay"] = true,
 	["AutoReturnLobby"] = true,
-	["AutoJoinWorld"] = false,
-	["LSImplosion"] = 100000,
-	["AutoSellShinies"] = false,
-	["LSDelay"] = 0.4,
-	["AutoSkip"] = true,
-	["AutoJoinChallenge"] = false,
-	["AutoLeave"] = false,
-	["PortalRarity"] = {
-		["Legendary"] = false,
-		["Mythic"] = false,
-		["Secret"] = false,
-		["Epic"] = true,
-		["Rare"] = false
+	["StandardSummonUnit"] = {
+		["Dragon Slayer"] = false,
+		["Shinobi Form 3"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Lava"] = false,
+		["The Gamer"] = false,
+		["Chance Taker"] = false,
+		["Ant King"] = false,
+		["Esper"] = false,
+		["Elf Wizardess"] = false,
+		["Cursed Fighter"] = false,
+		["Skull Warrior"] = false,
+		["Thunder Shinobi"] = false,
+		["Flame Dragon King"] = false,
+		["Curse Prince"] = false,
+		["Maxed Qi Master"] = false,
+		["Carp"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["The Beast"] = false,
+		["Bloomer"] = false,
+		["Master Swordsman"] = false
 	},
-	["BlackScreen"] = false,
+	["HardMode"] = false,
+	["WH_BannerSummoned"] = true,
 	["SelectChallengeMacro"] = {
 
 	},
-	["AutoTransferGem"] = false,
-	["UpgradeAndPlace"] = false,
-	["AutoJoinPortal"] = true,
-	["BuyUnit"] = false,
-	["SelectDeleteRarity"] = {
-		["Legendary"] = false,
-		["Shiny Epic"] = false,
-		["Epic"] = false,
-		["Mythic"] = false,
-		["Shiny Rare"] = false,
-		["Shiny Legendary"] = false,
-		["Rare"] = false
-	},
-	["JoinHighest"] = false,
-	["DeleteMap"] = false,
-	["LSLoop"] = 2,
-	["BuyItem"] = false,
-	["MiddlePos"] = {
+	["AutoSummonStandard"] = false,
+	["SelectRaidMacro"] = {
 
 	},
-	["AutoDeleteUnit"] = false,
-	["AutoUpgrade"] = false,
-	["AutoRejoin"] = false,
-	["AutoEquipBest"] = false
+	["AutoJoinChallenge"] = false,
+	["UnselectIfSummoned"] = false,
+	["AutoJoinWorld"] = true,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Gems"] = false,
+		["Star Rift "] = false,
+		["Star Rift (Rainbow)"] = false
+	},
+	["LeaveSellWave"] = 31,
+	["JoinHighest"] = false,
+	["AutoRejoin"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1250448895230873683/rbeWePbpGhxnf6tJLonHtCqXlP5Pwrx07aa2iUfLrO4v2gWc7ARuTw0K_sknTzlSDYUO",
+	["BlackScreen"] = false,
+	["WaitForJoiner"] = false,
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["SelectWorld"] = "Windmill Village",
+	["AutoJoinHoster"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	}
 }
 
 getgenv().Key = "k6dffba0c2a2ec5b5cd8d1fd"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
+
+
+repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
+ 
+local lp,po,ts = game:GetService('Players').LocalPlayer,game.CoreGui.RobloxPromptGui.promptOverlay,game:GetService('TeleportService')
+ 
+po.ChildAdded:connect(function(a)
+    if a.Name == 'ErrorPrompt' then
+        repeat
+            ts:Teleport(game.PlaceId)
+            wait(2)
+        until false
+    end
+end)
