@@ -1,7 +1,7 @@
 getgenv().RngEvent = {
     Selected_RngEgg = "First",
     Rolling_Enabled = true,
-    Rolling_Delay = 0.1,
+    Rolling_Delay = 0.4,
     Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
