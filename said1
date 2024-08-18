@@ -1,15 +1,3 @@
-getgenv().LuckyDiceMerchant = true
-
-local Remote = game.ReplicatedStorage.Network.Merchant_RequestPurchase
-
-while getgenv().LuckyDiceMerchant do task.wait()
-    local count = 1
-    for i = 1,6 do
-        Remote:InvokeServer("LuckyDiceMerchant", count)
-        count = count + 1
-    end
-end
-
 getgenv().RngEvent = {
     Selected_RngEgg = "First",
     Rolling_Enabled = true,
