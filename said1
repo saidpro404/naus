@@ -25,7 +25,7 @@ getgenv().RngEvent = {
     Huge_Mail_User = "hugecatsaidzy",
     Huge_Mail_Enabled = true, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
-    fps_boost = true, -- makes game shtuff invisible
+    fps_boost = false, -- makes game shtuff invisible
     fps_boost2 = false, -- disables game scripts so will break some in-game functionality like inventory Gui etc
 
 
