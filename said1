@@ -23,7 +23,7 @@ getgenv().RngEvent = {
     Webhook_Url = "https://discord.com/api/webhooks/1100210964118376530/cxcWWQtrPBNnJ0QkWAHSvDlpZHsRaWIpquc6RY_qjua-bhzzjIrDYovILBAxI8Gjiv7T",
     Discord_UserID = "474925167886336001",
     Huge_Mail_User = "hugecatsaidzy",
-    Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
+    Huge_Mail_Enabled = true, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
     fps_boost = false, -- makes game shtuff invisible
     fps_boost2 = false, -- disables game scripts so will break some in-game functionality like inventory Gui etc
