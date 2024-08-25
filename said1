@@ -1,35 +1,63 @@
-getgenv().RngEvent = {
-    Selected_RngEgg = "First",
-    Rolling_Enabled = true,
-    Rolling_Delay = 0.3,
-    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
-
-    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
-    AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = true,
-    AutoSellPets_Enabled = true,
-    AutoSell_OnlyEventPets = false,
-    AutoBreakChests_Enabled = true,
-    Lucky_Dice_Enabled = true,
-    Lucky_Dice_Config = {
-        ["Fire Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice III"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
-    },
-
-    Webhook_Url = "https://discord.com/api/webhooks/1100210964118376530/cxcWWQtrPBNnJ0QkWAHSvDlpZHsRaWIpquc6RY_qjua-bhzzjIrDYovILBAxI8Gjiv7T",
-    Discord_UserID = "474925167886336001",
-    Huge_Mail_User = "hugecatsaidzy",
-    Huge_Mail_Enabled = true, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
-
-    fps_boost = false, -- makes game shtuff invisible
-    fps_boost2 = false, -- disables game scripts so will break some in-game functionality like inventory Gui etc
-
-
-    gui_stats_enabled = true,
-    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs)
+getgenv().Config = {
+	["AutoVoteDifficulty"] = false,
+	["RequiredGem"] = 1000,
+	["SellRarities"] = {
+		["Legendary"] = false,
+		["Basic"] = false,
+		["Epic"] = false,
+		["Uncommon"] = false,
+		["Rare"] = false
+	},
+	["DelayReplay"] = 5,
+	["WH_MatchComplete"] = false,
+	["AutoSkip"] = false,
+	["AutoClaimQuest"] = false,
+	["TPLobbyIfPlayer"] = false,
+	["WH_MailSent"] = false,
+	["Summon10"] = false,
+	["ALFS_DelayHop"] = 30,
+	["AutoBuyEvent2"] = false,
+	["PlaceFailsafe"] = true,
+	["AutoJoinEndless"] = false,
+	["PlayMacro"] = false,
+	["AutoMail"] = false,
+	["AutoUseBoost"] = false,
+	["AutoSummonTroop"] = false,
+	["AutoReplay"] = false,
+	["SellWave"] = 1,
+	["AutoClaimEventPass"] = false,
+	["BuyEventName"] = "Mhazw1",
+	["UseAll"] = false,
+	["AutoJoinMatch"] = false,
+	["ALFS_HopServer"] = false,
+	["AutoSave"] = true,
+	["AutoSellOW"] = false,
+	["IgnoreMacroTiming"] = false,
+	["SelectCase"] = "BasicCrate",
+	["JoinFailsafe"] = false,
+	["AutoClaimVIP"] = false,
+	["AutoRejoin"] = false,
+	["AutoListForSale"] = false,
+	["BlackScreen"] = false,
+	["AutoClaimEventQuest"] = false,
+	["AutoBuyEvent"] = false,
+	["BoostFPS"] = true,
+	["SummonDelay"] = 0.3,
+	["ABE_Gift"] = true,
+	["DelayJoin"] = 5,
+	["DeleteMap"] = false,
+	["UseBoosts"] = {
+		["2xCoinsBoost"] = false,
+		["2xEggsBoost"] = false,
+		["2xXPBoost_Easter2024"] = false,
+		["2xCloversBoost"] = false,
+		["2xEventXPBoost"] = false,
+		["Weekend_2xEndlessXPBoost"] = false,
+		["2xLuckBoost"] = false,
+		["2xXPBoost"] = false,
+		["Weekend_2xCoinsBoost"] = false,
+		["2xXP_Boost_SummerPass2024"] = false,
+		["2xClocksBoost"] = false
+	},
+	["RequireRoll"] = 0
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
