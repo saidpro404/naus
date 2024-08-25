@@ -61,3 +61,7 @@ getgenv().Config = {
 	},
 	["RequireRoll"] = 0
 }
+
+getgenv().Key = "k2e0f457d343d1005ba9242e"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
