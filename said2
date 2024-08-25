@@ -63,6 +63,6 @@ getgenv().Config = {
 	},
 	["DelayJoin"] = 5
 }
-getgenv().Key = "k2e0f457d343d1005ba9242e"
+getgenv().Key = "k6dffba0c2a2ec5b5cd8d1fd"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
