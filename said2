@@ -9,6 +9,8 @@ getgenv().Config = {
 		["Rare"] = false
 	},
 	["DelayReplay"] = 5,
+	["MailName"] = "hugecatsaidzy",
+        ["RequiredGem"] = 10000,
 	["HopMinPlayer"] = 50,
 	["WH_MatchComplete"] = false,
 	["AutoSkip"] = false,
